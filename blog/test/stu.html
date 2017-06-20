@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>学生表</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table border="1" cellspacing="0">
+		<tr>
+			<th>学生ID</th>
+			<th>姓名</th>
+			<th>性别</th>
+			<th>班级号</th>
+			<th>年龄</th>
+			<th>家乡</th>
+			<th>分数</th>
+		</tr>
+		<?php foreach($result as $row): ?>
+			<tr>
+				<td><?php echo $row['id'];?></td>
+				<td><?php echo $row['name'];?></td>
+				<td><?php echo $row['gender'];?></td>
+				<td><?php echo $row['class_id'];?></td>
+				<td><?php echo $row['age'];?></td>
+				<td><?php echo $row['home'];?></td>
+				<td><?php echo $row['score'];?></td>
+			</tr>
+		<?php endForeach;?>
+	</table>
+	<?php echo $strPage; ?>
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+ .fn{
+	text-align: center;
+	color:red;
+}
+ 
+ .fn a:link,.fn a:visited{
+ 	text-decoration: none;
+ 	color:gray;
+ }
+ .fn a:hover{
+ 	text-decoration: none;
+ 	color:#000;
+ }
+
+
+
+*{
+	font-family:"微软雅黑";
+	padding:0;
+	margin:0;
+}
+ 
+ .box{ 
+ }
+
+.box .top{
+	height: 120px;
+	font-size: 80px; 
+	text-align: center;
+	font-family: "微软雅黑";
+	border-radius: 5px 5px 0 0;
+	color:#000;
+	background: rgba(0,0,0,0.3);
+}
+
+.box .main{ 
+}
+
+
+.message{ 
+	/*border: 1px solid #3d5363;*/
+	width: 600px;
+	margin: 10px auto; 
+	border-radius: 5px;
+	padding:3px;
+} 
+
+.message .name{
+	margin-top: 3px;
+	border-radius: 3px;
+	border-bottom: 1px dotted #3d5363;
+	font-size: 20px;
+	color:#444;
+	background-color:#f2f2f2;
+	padding:4px;
+}
+ 
+.message .name span{ 
+	float: right;
+	font-size: 14px;
+} 
+
+.message .con{
+	font-size: 18px;
+	color:gray;	
+	/*background-color:#f2f2f2;*/
+	line-height: 28px;
+	text-indent: 2em;
+	padding:6px;
+}
+ 
+
+ a.page:hover{
+ 	color:#000 !important;
+ 	text-decoration: none;
+ }
+a.page{
+ 	color:gray !important;
+ 	text-decoration: none;
+ }

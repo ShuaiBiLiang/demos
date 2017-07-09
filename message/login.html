@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>管理员登陆</title>
+		<link rel="stylesheet" type="text/css" href="./css/login.css">
+		<link rel="stylesheet" type="text/css" href="./css/add.css">
+		<script type="text/javascript">
+			function gohome(){
+				 history.back(-1);
+			}
+		</script>
+	</head>
+<body>
+	<div class="box">
+		<span>Admin Login</span>
+		<form action="./admin_login.php" method='post'>
+			<p><input type="text" name="user" class="st" placeholder="name"></p>
+			<p><input type="password" name="pwd" class="st" placeholder="password"></p>
+			<p><button class="button white btn">Login</button></p>
+		</form>   
+			<p><button class="button white btn" onclick="gohome()">Back</button></p>
+ 
+	</div>
+
+
+
+</body>
+</html>

@@ -9,7 +9,7 @@ return array(
 		'host'=>'localhost',
 		'port'=>'3306',
 		'user'=>'root',
-		'pass'=>'zhouyang',
+		'pass'=>'123',
 		'charset'=>'utf8',
 		'dbname'=>'blog'
 	),

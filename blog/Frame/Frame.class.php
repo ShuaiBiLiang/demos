@@ -43,6 +43,7 @@ class Frame {
 		define('PUBLIC_DIR', ROOT_DIR . 'Public/');
 		// Uploads目录常量
 		define('UPLOADS_DIR', ROOT_DIR . 'Uploads/');
+		
 	}
 	/**
 	 * 初始化配置

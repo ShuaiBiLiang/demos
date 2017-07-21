@@ -1,0 +1,21 @@
+[ 2017-06-21T08:39:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013380s ]
+NOTIC: [8] Undefined index: member_login E:\tpshop\php24abc\Runtime\Cache\Home\f93311fe202daeb3288934cfa6fa3a59.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+

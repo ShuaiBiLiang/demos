@@ -1,0 +1,41 @@
+[ 2017-06-24T14:30:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000829s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Undefined index: member_login E:\tpshop\php24abc\Runtime\Cache\Home\f93311fe202daeb3288934cfa6fa3a59.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2017-06-24T14:30:19+08:00 ] 127.0.0.1 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001586s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+

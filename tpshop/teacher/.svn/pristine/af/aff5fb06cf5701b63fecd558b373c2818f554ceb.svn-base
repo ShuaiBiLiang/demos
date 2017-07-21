@@ -1,0 +1,44 @@
+<?php
+  namespace Admin\Controller;
+  use Think\Controller;
+  class GoodsController extends Controller{
+    // 商品列表
+    public function index(){
+      $Goods = D('Goods');
+      $list = $Goods->select();
+      echo "<img src='1.jpg' onerror=\"alert('abc');\" alt=\"\">";
+      // $this->display('showList');
+    }
+
+    // 添加商品
+    public function add(){      
+      // 判读是否post提交的数据 
+      if( IS_POST ){
+        // 接收数据
+        $data['goods_name'] = I('post.goods_name');
+        $data['goods_price'] = I('post.goods_price');
+        $data['goods_number'] = I('post.goods_number');
+        $data['goods_weight'] = I('post.goods_weight');
+        $data['goods_introduce'] = filterXSS($_POST['goods_desc']);
+        $Goods = D('Goods');
+        
+        // 验证
+        $res = $Goods->where("goods_name = '{$data['goods_name']}'")->find();
+
+        if(  $res  ){
+          $this->error('商品名称已经存在！');
+        }
+    
+        // 添加数据到Goods表中
+        $res = $Goods->add($data);  
+        if( $res ){
+          $this->success('添加商品成功！',U('index') );
+          die();
+        }else{
+          $this->error('添加商品失败！');
+        }
+
+      }
+      $this->display();
+    }
+  }

@@ -1,0 +1,32 @@
+<?php
+  namespace Admin\Model;
+  use Think\Model;
+  class GoodsModel extends Model{
+     // 自动完成[二维数组，每一个子数组，就是一个字段的自动完成设置]
+     protected $_auto = array(
+       // array('完成字段名称','完成规则','完成条件','附加规则')
+       array('created_time','mytime',1,'callback'),  // 调用自定义[会在当前模型中查找]
+       array('updated_time','time',3,'function'), // 调用系统函数
+     );
+     // 字段映射
+     // 隐藏真实的数据表字段，防止一些恶意的用户猜测我们的数据表字段。 
+     protected $_map = array(
+       'title' => 'goods_name',
+     );
+
+     // 自动验证[二维数组,每一个子数组，就是一个字段的验证规则集合]
+     protected $_validate = array(
+       // array('验证字段名','验证规则','验证失败以后的提示错误信息','附加验证规则') 
+        array('goods_name','require','商品名称必须填写'),
+        array('goods_name','','该商品名称已经存在！',1,'unique',1),
+     );
+
+     protected function mytime($data=null){
+       if($data){
+          return strtotime($data);  // 把时间格式化字符串转换成时间戳
+       }
+       return time();
+     
+     }
+
+  }

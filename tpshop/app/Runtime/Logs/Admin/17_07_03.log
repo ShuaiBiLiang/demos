@@ -1,0 +1,2435 @@
+[ 2017-07-03T16:18:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-07-03T16:18:40+08:00 ] 127.0.0.1 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `ts_role` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-07-03T16:18:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ts_role` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-07-03T16:18:47+08:00 ] 127.0.0.1 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `ts_role` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_admin` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `ts_admin` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `ts_admin` SET `login_time`='1499069927' WHERE `aid` = 1 [ RunTime:0.0436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+
+[ 2017-07-03T16:18:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-07-03T16:18:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-07-03T16:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.6689s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid=0 AND auth_id IN (1,3,4,17,18,2,5,6,7,8,9,10,11,15,12,13,14,16) )  [ RunTime:0.0174s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid!=0 AND auth_id IN (1,3,4,17,18,2,5,6,7,8,9,10,11,15,12,13,14,16) )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2017-07-03T16:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-07-03T16:18:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.1675s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2017-07-03T16:19:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/photos/gid/34.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE ( goods_id = 34 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-07-03T16:19:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-07-03T16:23:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/gid/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-07-03T16:24:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-07-03T16:24:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\tpshop\appscore\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate E:\tpshop\appscore\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ts_goods` WHERE `goods_name` = 'AAA' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto E:\tpshop\appscore\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ts_goods` (`goods_price`,`goods_number`,`goods_weight`,`created_time`,`is_show`,`goods_big_logo`,`goods_small_logo`,`goods_name`,`updated_time`) VALUES ('1','3','2','1498049881','1','/Goods/2017-07-03/5959ff4ac6e4c.jpg','/Goods/2017-07-03/m_5959ff4ac6e4c.jpg','AAA','1499070282') [ RunTime:0.0723s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsAttributeModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) E:\tpshop\app\Admin\Model\GoodsAttributeModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `ts_goods_attribute` [ RunTime:0.0093s ]
+NOTIC: [8] Undefined index: attr_ids E:\tpshop\app\Admin\Model\GoodsAttributeModel.class.php 第 14 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\tpshop\app\Admin\Model\GoodsAttributeModel.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+
+[ 2017-07-03T16:24:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-07-03T16:24:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-07-03T16:24:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-07-03T16:24:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-07-03T16:24:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid=0 AND auth_id IN (1,3,4,17,18,2,5,6,7,8,9,10,11,15,12,13,14,16) )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid!=0 AND auth_id IN (1,3,4,17,18,2,5,6,7,8,9,10,11,15,12,13,14,16) )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-07-03T16:25:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-07-03T16:25:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+
+[ 2017-07-03T16:25:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-07-03T16:25:47+08:00 ] 127.0.0.1 /index.php/Admin/Auth/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-07-03T16:26:07+08:00 ] 127.0.0.1 /index.php/Admin/Auth/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate E:\tpshop\appscore\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\tpshop\appscore\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ts_auth` (`auth_name`,`auth_pid`,`auth_controller`,`auth_action`) VALUES ('获取属性','1','Goods','getAttr') [ RunTime:0.0567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+
+[ 2017-07-03T16:26:08+08:00 ] 127.0.0.1 /index.php/Admin/Auth/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-07-03T16:26:24+08:00 ] 127.0.0.1 /index.php/Admin/Auth/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate E:\tpshop\appscore\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\tpshop\appscore\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ts_auth` (`auth_name`,`auth_pid`,`auth_controller`,`auth_action`) VALUES ('删除商品','1','Goods','del') [ RunTime:0.0557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+
+[ 2017-07-03T16:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Auth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0022s ]
+SQL: SELECT auth_id id,`auth_name`,auth_pid pid,`auth_controller`,`auth_action` FROM `ts_auth`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-07-03T16:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Auth/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-07-03T16:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Role/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-07-03T16:26:30+08:00 ] 127.0.0.1 /index.php/Admin/Role/setAuth.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+
+[ 2017-07-03T16:26:31+08:00 ] 127.0.0.1 /index.php/Admin/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ts_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-07-03T16:26:34+08:00 ] 127.0.0.1 /index.php/Admin/Role/setAuth/role_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid != 0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-07-03T16:26:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/setAuth/role_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid!=0 AND auth_id IN (1,3,4,17,18,19,20,2,5,6,7,8,9,10,11,15,12,13,14,16) )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\tpshop\appscore\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\tpshop\appscore\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `ts_role` SET `role_auth_ids`='1,3,4,17,18,19,20,2,5,6,7,8,9,10,11,15,12,13,14,16',`role_auth_ac`='Goods-add,Goods-index,Admin-add,Admin-del,Order-index,Auth-add,Role-add,Role-setAuth,Auth-index,Role-index,Goods-photos,Goods-edit,Goods-getAttr,Goods-del' WHERE `role_id` = 1 [ RunTime:0.0400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+
+[ 2017-07-03T16:26:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-07-03T16:26:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-07-03T16:26:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/gid/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-07-03T16:26:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-07-03T16:26:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-07-03T16:26:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 33 [ RunTime:0.0421s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0017s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 33 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 121 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 121 [ RunTime:0.0460s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 128 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 128 [ RunTime:0.0490s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 129 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 129 [ RunTime:0.0506s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 130 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 130 [ RunTime:0.0379s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 131 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 131 [ RunTime:0.0375s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 132 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 132 [ RunTime:0.0379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2017-07-03T16:26:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-07-03T16:26:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/34.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 34 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 34 [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0022s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 34 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 122 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 122 [ RunTime:0.0341s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 123 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 123 [ RunTime:0.0383s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 124 [ RunTime:0.0374s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 125 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 125 [ RunTime:0.0493s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 126 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 126 [ RunTime:0.0372s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 127 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 127 [ RunTime:0.0498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-07-03T16:27:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-07-03T16:27:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 36 [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0021s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 36 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 135 LIMIT 1   [ RunTime:0.0001s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 135 [ RunTime:0.0462s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 136 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 136 [ RunTime:0.0478s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 137 LIMIT 1   [ RunTime:0.0022s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 137 [ RunTime:0.0570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2017-07-03T16:27:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-07-03T16:27:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/37.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 37 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 37 [ RunTime:0.0417s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0021s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 37 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 138 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 138 [ RunTime:0.0458s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 139 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 139 [ RunTime:0.0429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-07-03T16:27:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-07-03T16:27:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 38 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 38 [ RunTime:0.2950s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0089s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 38 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE `photo_id` = 140 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ts_goods_photos` WHERE `photo_id` = 140 [ RunTime:0.0648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-07-03T16:27:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-07-03T16:27:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-07-03T16:27:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/40.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 40 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 40 [ RunTime:0.0394s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0021s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 40 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-07-03T16:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-07-03T16:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 41 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 41 [ RunTime:0.0429s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0017s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 41 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-07-03T16:27:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-07-03T16:27:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/42.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 42 [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0019s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 42 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-07-03T16:27:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-07-03T16:27:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 45 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 45 [ RunTime:0.0384s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0018s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 45 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-07-03T16:27:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-07-03T16:27:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/44.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 44 [ RunTime:0.0342s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0017s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 44 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-07-03T16:27:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-07-03T16:27:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del/gid/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `ts_goods` WHERE `goods_id` = 43 [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0027s ]
+SQL: SELECT `photo_id` FROM `ts_goods_photos` WHERE ( goods_id = 43 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-07-03T16:27:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-07-03T16:27:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-07-03T16:27:53+08:00 ] 127.0.0.1 /index.php/Admin/Auth/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-07-03T16:27:53+08:00 ] 127.0.0.1 /index.php/Admin/Auth/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0037s ]
+SQL: SELECT auth_id id,`auth_name`,auth_pid pid,`auth_controller`,`auth_action` FROM `ts_auth`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 65 行.
+NOTIC: [8] Undefined index: auth_pid E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 67 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 71 行.
+NOTIC: [8] Undefined index: auth_id E:\tpshop\app\Runtime\Cache\Admin\83a2a89ceef64c5191aac67725fa6751.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-07-03T16:27:53+08:00 ] 127.0.0.1 /index.php/Admin/Auth/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-07-03T16:30:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-07-03T16:30:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-07-03T16:31:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-07-03T16:31:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-07-03T16:32:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-07-03T16:32:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html?type_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_attribute` [ RunTime:0.0017s ]
+SQL: SELECT * FROM ts_attribute attr LEFT JOIN ts_goods_type gt ON attr.type_id = gt.type_id  WHERE ( attr.type_id=5 )  [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-07-03T16:33:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html?type_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_attribute` [ RunTime:0.0054s ]
+SQL: SELECT * FROM ts_attribute attr LEFT JOIN ts_goods_type gt ON attr.type_id = gt.type_id  WHERE ( attr.type_id=3 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-07-03T16:33:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\tpshop\appscore\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: validate E:\tpshop\appscore\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ts_goods` WHERE `goods_name` = 'BBB' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto E:\tpshop\appscore\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ts_goods` (`goods_price`,`goods_number`,`goods_weight`,`created_time`,`is_show`,`goods_big_logo`,`goods_small_logo`,`goods_name`,`updated_time`) VALUES ('1','2','3','1499243611','1','/Goods/2017-07-03/595a016837ca7.jpg','/Goods/2017-07-03/m_595a016837ca7.jpg','BBB','1499070824') [ RunTime:0.0582s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsAttributeModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) E:\tpshop\app\Admin\Model\GoodsAttributeModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `ts_goods_attribute` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ts_goods_attribute` (`goods_id`,`attr_id`,`attr_value`) VALUES ('46','5','翻盖') [ RunTime:0.0354s ]
+SQL: INSERT INTO `ts_goods_attribute` (`goods_id`,`attr_id`,`attr_value`) VALUES ('46','6','bbbavc') [ RunTime:0.0384s ]
+SQL: INSERT INTO `ts_goods_attribute` (`goods_id`,`attr_id`,`attr_value`) VALUES ('46','7','土豪金') [ RunTime:0.0389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+
+[ 2017-07-03T16:33:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-07-03T16:34:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/gid/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2017-07-03T16:34:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/photos/gid/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE ( goods_id = 46 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-07-03T16:34:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/photos/gid/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0017s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\tpshop\appscore\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\tpshop\appscore\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\tpshop\appscore\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `ts_goods_photos` (`src`,`thumb`,`goods_id`) VALUES ('/Goods/2017-07-03/595a01874d98e.jpg','/Goods/2017-07-03/m_595a01874d98e.jpg','46') [ RunTime:0.0389s ]
+NOTIC: [8] Undefined variable: x E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `ts_goods_photos` (`src`,`thumb`,`goods_id`) VALUES ('/Goods/2017-07-03/595a01874e055.jpg','/Goods/2017-07-03/m_595a01874e055.jpg','46') [ RunTime:0.0393s ]
+NOTIC: [8] Undefined variable: x E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `ts_goods_photos` (`src`,`thumb`,`goods_id`) VALUES ('/Goods/2017-07-03/595a01874e37d.jpg','/Goods/2017-07-03/m_595a01874e37d.jpg','46') [ RunTime:0.0342s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE ( goods_id = 46 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-07-03T16:35:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/photos/gid/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE ( goods_id = 46 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-07-03T16:35:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods_type` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ts_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-07-03T16:35:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html?type_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_attribute` [ RunTime:0.0018s ]
+SQL: SELECT * FROM ts_attribute attr LEFT JOIN ts_goods_type gt ON attr.type_id = gt.type_id  WHERE ( attr.type_id=4 )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2017-07-03T16:35:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html?type_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_attribute` [ RunTime:0.0017s ]
+SQL: SELECT * FROM ts_attribute attr LEFT JOIN ts_goods_type gt ON attr.type_id = gt.type_id  WHERE ( attr.type_id=3 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-07-03T16:35:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\tpshop\appscore\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: validate E:\tpshop\appscore\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ts_goods` WHERE `goods_name` = 'CCC' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto E:\tpshop\appscore\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ts_goods` (`goods_price`,`goods_number`,`goods_weight`,`created_time`,`is_show`,`goods_big_logo`,`goods_small_logo`,`goods_name`,`updated_time`) VALUES ('1','2','3','1499243611','1','/Goods/2017-07-03/595a01d22b1bd.jpg','/Goods/2017-07-03/m_595a01d22b1bd.jpg','CCC','1499070930') [ RunTime:0.0476s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsAttributeModel::addAll() should be compatible with Think\Model::addAll($dataList, $options = Array, $replace = false) E:\tpshop\app\Admin\Model\GoodsAttributeModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `ts_goods_attribute` [ RunTime:0.0018s ]
+SQL: INSERT INTO `ts_goods_attribute` (`goods_id`,`attr_id`,`attr_value`) VALUES ('47','5','翻盖') [ RunTime:0.0360s ]
+SQL: INSERT INTO `ts_goods_attribute` (`goods_id`,`attr_id`,`attr_value`) VALUES ('47','6','cccccc') [ RunTime:0.0494s ]
+SQL: INSERT INTO `ts_goods_attribute` (`goods_id`,`attr_id`,`attr_value`) VALUES ('47','7','土豪金') [ RunTime:0.0387s ]
+SQL: INSERT INTO `ts_goods_attribute` (`goods_id`,`attr_id`,`attr_value`) VALUES ('47','7','蓝绿色') [ RunTime:0.0490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+
+[ 2017-07-03T16:35:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2017-07-03T16:38:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/photos/gid/47.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE ( goods_id = 47 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-07-03T16:38:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/photos/gid/47.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0017s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\tpshop\appscore\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\tpshop\appscore\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\tpshop\appscore\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `ts_goods_photos` (`src`,`thumb`,`goods_id`) VALUES ('/Goods/2017-07-03/595a0291c0c48.jpg','/Goods/2017-07-03/m_595a0291c0c48.jpg','47') [ RunTime:0.0393s ]
+NOTIC: [8] Undefined variable: x E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `ts_goods_photos` (`src`,`thumb`,`goods_id`) VALUES ('/Goods/2017-07-03/595a0291c145e.jpg','/Goods/2017-07-03/m_595a0291c145e.jpg','47') [ RunTime:0.0433s ]
+NOTIC: [8] Undefined variable: x E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y E:\tpshop\appscore\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `ts_goods_photos` (`src`,`thumb`,`goods_id`) VALUES ('/Goods/2017-07-03/595a0291c1953.jpg','/Goods/2017-07-03/m_595a0291c1953.jpg','47') [ RunTime:0.0500s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE ( goods_id = 47 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2017-07-03T16:49:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-07-03T16:49:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2017-07-03T16:49:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_auth` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid=0 AND auth_id IN (1,3,4,17,18,19,20,2,5,6,7,8,9,10,11,15,12,13,14,16) )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ts_auth` WHERE ( auth_pid!=0 AND auth_id IN (1,3,4,17,18,19,20,2,5,6,7,8,9,10,11,15,12,13,14,16) )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-07-03T16:49:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-07-03T16:50:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/photos/gid/47.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE ( goods_id = 47 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-07-03T16:50:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-07-03T16:50:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/gid/47.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 47 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-07-03T16:50:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-07-03T16:50:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `ts_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_number`,`goods_small_logo`,`sale_time`,`is_show` FROM `ts_goods` LIMIT 0,3   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+

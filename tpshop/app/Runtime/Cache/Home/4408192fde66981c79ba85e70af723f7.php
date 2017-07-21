@@ -2,37 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>商品页面</title>
+	<title>京西商城</title>
 	<link rel="stylesheet" href="/Public/Home/style/base.css" type="text/css">
 	<link rel="stylesheet" href="/Public/Home/style/global.css" type="text/css">
 	<link rel="stylesheet" href="/Public/Home/style/header.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/goods.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/common.css" type="text/css">
+	<link rel="stylesheet" href="/Public/Home/style/index.css" type="text/css">
 	<link rel="stylesheet" href="/Public/Home/style/bottomnav.css" type="text/css">
 	<link rel="stylesheet" href="/Public/Home/style/footer.css" type="text/css">
-	
-	<!--引入jqzoom css -->
-	<link rel="stylesheet" href="style/jqzoom.css" type="text/css">
 
 	<script type="text/javascript" src="/Public/Home/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="/Public/Home/js/header.js"></script>
-	<script type="text/javascript" src="/Public/Home/js/goods.js"></script>
-	<script type="text/javascript" src="/Public/Home/js/jqzoom-core.js"></script>
-	
-	<!-- jqzoom 效果 -->
-	<script type="text/javascript">
-		$(function(){
-			$('.jqzoom').jqzoom({
-	            zoomType: 'standard',
-	            lens:true,
-	            preloadImages: false,
-	            alwaysOn:false,
-	            title:false,
-	            zoomWidth:400,
-	            zoomHeight:400
-	        });
-		})
-	</script>
+	<script type="text/javascript" src="/Public/Home/js/index.js"></script>
 </head>
 <body>
 	<!-- 顶部导航 start -->
@@ -43,7 +23,16 @@
 			</div>
 			<div class="topnav_right fr">
 				<ul>
-					<li>您好，欢迎来到京西！[<a href="login.html">登录</a>] [<a href="register.html">免费注册</a>] </li>
+					<?php if($_SESSION['member_login']== 1): ?>
+					<li>您好，<?php echo (session('member_name')); ?>
+						[<a href="<?php echo U('Member/logout');?>">退出</a>] 
+					 </li>
+					<?php else: ?>
+						
+					<li>您好，欢迎来到京西！
+						[<a href="<?php echo U('Member/login');?>">登录</a>] 
+						[<a href="<?php echo U('Member/register');?>">免费注册</a>]
+					 </li><?php endif; ?>
 					<li class="line">|</li>
 					<li>我的订单</li>
 					<li class="line">|</li>
@@ -149,17 +138,29 @@
 		<!-- 导航条部分 start -->
 		<div class="nav w1210 bc mt10">
 			<!--  商品分类部分 start-->
-			<div class="category fl cat1">
-				<div class="cat_hd off">  <!-- 注意，首页在此div上只需要添加cat_hd类，非首页，默认收缩分类时添加上off类，并将cat_bd设置为不显示(加上类none即可)，鼠标滑过时展开菜单则将off类换成on类 -->
-					<h2>全部商品分类</h2>
-					<em></em>
-				</div>
-				
-				<div class="cat_bd none"> 
-					
-					<div class="cat item1">
-						<h3><a href="">图像、音像、数字商品</a> <b></b></h3>
-						<div class="cat_detail none">
+			    <?php if(strtolower(CONTROLLER_NAME)== 'index' AND strtolower(ACTION_NAME)== 'index'): ?><div class="category fl"> <!-- 非首页，需要添加cat1类 -->
+        <div class="cat_hd">  <!-- 注意，首页在此div上只需要添加cat_hd类，非首页，默认收缩分类时添加上off类，鼠标滑过时展开菜单则将off类换成on类 -->
+          <h2>全部商品分类</h2>
+          <em></em>
+        </div>
+        
+        <div class="cat_bd">
+          
+          <div class="cat item1">
+            <h3><a href="">图像、音像、数字商品</a> <b></b></h3>
+            <div class="cat_detail">
+    <?php else: ?>
+      <div class="category fl cat1"> <!-- 非首页，需要添加cat1类 -->
+        <div class="cat_hd off">  <!-- 注意，首页在此div上只需要添加cat_hd类，非首页，默认收缩分类时添加上off类，并将cat_bd设置为不显示，鼠标滑过时展开菜单则将off类换成on类 -->
+          <h2>全部商品分类</h2>
+          <em></em>
+        </div>
+        
+        <div class="cat_bd none">
+          
+          <div class="cat item1">
+            <h3><a href="">图像、音像、数字商品</a> <b></b></h3>
+            <div class="cat_detail none"><?php endif; ?>
 							<dl class="dl_1st">
 								<dt><a href="">电子书</a></dt>
 								<dd>
@@ -439,9 +440,32 @@
 		<!-- 导航条部分 end -->
 	</div>
 	<!-- 头部 end-->
+ 
+	<link rel="stylesheet" href="/Public/Home/style/goods.css" type="text/css">
+	<link rel="stylesheet" href="/Public/Home/style/common.css" type="text/css">
+	
+	<!--引入jqzoom css -->
+	<link rel="stylesheet" href="/Public/Home/style/jqzoom.css" type="text/css">
+
+	<script type="text/javascript" src="/Public/Home/js/goods.js"></script>
+	<script type="text/javascript" src="/Public/Home/js/jqzoom-core.js"></script>
+	
+	<!-- jqzoom 效果 -->
+	<script type="text/javascript">
+		$(function(){
+			$('.jqzoom').jqzoom({
+	            zoomType: 'standard',
+	            lens:true,
+	            preloadImages: false,
+	            alwaysOn:false,
+	            title:false,
+	            zoomWidth:400,
+	            zoomHeight:400
+	        });
+		})
+	</script>
 
 	<div style="clear:both;"></div>
-
 
 	<!-- 商品页面主体 start -->
 	<div class="main w1210 mt10 bc">
@@ -568,13 +592,13 @@
 		<div class="goods_content fl mt10 ml10">
 			<!-- 商品概要信息 start -->
 			<div class="summary">
-				<h3><strong>ThinkPad X230(23063T4）12.5英寸笔记本（i5-3230M 8GB 500G HD4000 指纹蓝牙 WIN8PRC 一年质保）</strong></h3>
+				<h3><strong><?php echo ($info["goods_name"]); ?></strong></h3>
 				
 				<!-- 图片预览区域 start -->
 				<div class="preview fl">
 					<div class="midpic">
-						<a href="/Public/Home/images/preview_l1.jpg" class="jqzoom" rel="gal1">   <!-- 第一幅图片的大图 class 和 rel属性不能更改 -->
-							<img src="/Public/Home/images/preview_m1.jpg" alt="" />               <!-- 第一幅图片的中图 -->
+						<a href="/Public/Uploads<?php echo ($photos[0]["src"]); ?>" class="jqzoom" rel="gal1">   <!-- 第一幅图片的大图 class 和 rel属性不能更改 -->
+							<img src="/Public/Uploads<?php echo ($photos[0]["thumb"]); ?>" alt="" />               <!-- 第一幅图片的中图 -->
 						</a>
 					</div>
 	
@@ -585,47 +609,9 @@
 						<a href="javascript:;" id="forward" class="on"></a>
 						<div class="smallpic_wrap">
 							<ul>
-								<li class="cur">
-									<a class="zoomThumbActive" href="javascript:void(0);" rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m1.jpg',largeimage: '/Public/Home/images/preview_l1.jpg'}"><img src="/Public/Home/images/preview_s1.jpg"></a>
-								</li>
-								<li>
-									<a href="javascript:void(0);" rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m2.jpg',largeimage: '/Public/Home/images/preview_l2.jpg'}"><img src="/Public/Home/images/preview_s2.jpg"></a>
-								</li>
-								<li>
-									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m3.jpg',largeimage: '/Public/Home/images/preview_l3.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s3.jpg"></a>
-								</li>
-								<li>
-									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m4.jpg',largeimage: '/Public/Home/images/preview_l4.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s4.jpg"></a>
-								</li>
-								<li>
-									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m5.jpg',largeimage: '/Public/Home/images/preview_l5.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s5.jpg"></a>
-								</li>
-								<li>
-									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m6.jpg',largeimage: '/Public/Home/images/preview_l6.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s6.jpg"></a>
-								</li>
-								<li>
-									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m7.jpg',largeimage: '/Public/Home/images/preview_l7.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s7.jpg"></a>
-								</li>
-								<li>
-									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m8.jpg',largeimage: '/Public/Home/images/preview_l8.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s8.jpg"></a>
-								</li>
-								<li>
-									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m9.jpg',largeimage: '/Public/Home/images/preview_l9.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s9.jpg"></a>
-								</li>
+								<?php if(is_array($photos)): $i = 0; $__LIST__ = $photos;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="cur">
+										<a class="zoomThumbActive" href="javascript:void(0);" rel="{gallery: 'gal1', smallimage: '/Public/Uploads<?php echo ($vo["thumb"]); ?>',largeimage: '/Public/Uploads<?php echo ($vo["src"]); ?>'}"><img src="/Public/Uploads<?php echo ($vo["src"]); ?>"></a>
+									</li><?php endforeach; endif; else: echo "" ;endif; ?>
 							</ul>
 						</div>
 						
@@ -636,10 +622,10 @@
 				<!-- 商品基本信息区域 start -->
 				<div class="goodsinfo fl ml10">
 					<ul>
-						<li><span>商品编号： </span>971344</li>
-						<li class="market_price"><span>定价：</span><em>￥6399.00</em></li>
-						<li class="shop_price"><span>本店价：</span> <strong>￥6299.00</strong> <a href="">(降价通知)</a></li>
-						<li><span>上架时间：</span>2012-09-12</li>
+						<li><span>商品编号： </span><?php echo ($info["goods_id"]); ?></li>
+						<li class="market_price"><span>定价：</span><em>￥<?php echo ($info["goods_price"]); ?></em></li>
+						<li class="shop_price"><span>本店价：</span> <strong>￥<?php echo ($info["goods_price"]); ?></strong> <a href="">(降价通知)</a></li>
+						<li><span>上架时间：</span><?php echo (date("Y-m-d",$info["created_time"])); ?></li>
 						<li class="star"><span>商品评分：</span> <strong></strong><a href="">(已有21人评价)</a></li> <!-- 此处的星级切换css即可 默认为5星 star4 表示4星 star3 表示3星 star2表示2星 star1表示1星 -->
 					</ul>
 					<form action="" method="post" class="choose">
@@ -712,39 +698,16 @@
 					<div class="introduce detail_div none">
 						<div class="attr mt15">
 							<ul>
-								<li><span>商品名称：</span>ThinkPadX230(2306 3T4）</li>
-								<li><span>商品编号：</span>979631</li>
-								<li><span>品牌：</span>联想（Thinkpad）</li>
-								<li><span>上架时间：</span>2013-09-18 17:58:12</li>
-								<li><span>商品毛重：</span>2.47kg</li>
-								<li><span>商品产地：</span>中国大陆</li>
-								<li><span>显卡：</span>集成显卡</li>
-								<li><span>触控：</span>非触控</li>
-								<li><span>厚度：</span>正常厚度（>25mm）</li>
-								<li><span>处理器：</span>Intel i5</li>
-								<li><span>尺寸：</span>12英寸</li>
+								 <?php if(is_array($attr_simple)): $i = 0; $__LIST__ = $attr_simple;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><span><?php echo ($vo["attr_name"]); ?>:<?php echo ($vo["attr_value"]); ?></span></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							</ul>
 						</div>
 
 						<div class="desc mt10">
-							<!-- 此处的内容 一般是通过在线编辑器添加保存到数据库，然后直接从数据库中读出 -->
-							<img src="/Public/Home/images/desc1.jpg" alt="" />
-							<p style="height:10px;"></p>
-							<img src="/Public/Home/images/desc2.jpg" alt="" />
-							<p style="height:10px;"></p>
-							<img src="/Public/Home/images/desc3.jpg" alt="" />
-							<p style="height:10px;"></p>
-							<img src="/Public/Home/images/desc4.jpg" alt="" />
-							<p style="height:10px;"></p>
-							<img src="/Public/Home/images/desc5.jpg" alt="" />
-							<p style="height:10px;"></p>
-							<img src="/Public/Home/images/desc6.jpg" alt="" />
-							<p style="height:10px;"></p>
-							<img src="/Public/Home/images/desc7.jpg" alt="" />
-							<p style="height:10px;"></p>
-							<img src="/Public/Home/images/desc8.jpg" alt="" />
-							<p style="height:10px;"></p>
-							<img src="/Public/Home/images/desc9.jpg" alt="" />
+						<!-- 这里商品介绍 因为我没有这个属性，所以就用商品名称算了 -->
+							<?php echo ($info["goods_name"]); ?>
+							<?php echo ($info["goods_name"]); ?>
+							<?php echo ($info["goods_name"]); ?>
+							<?php echo ($info["goods_name"]); ?>
 						</div>
 					</div>
 					<!-- 商品介绍 end -->
@@ -976,7 +939,11 @@
 
 	<div style="clear:both;"></div>
 
-	<!-- 底部导航 start -->
+
+	<script type="text/javascript">
+		document.execCommand("BackgroundImageCache", false, true);
+	</script>
+<!-- 底部导航 start -->
 	<div class="bottomnav w1210 bc mt10">
 		<div class="bnav1">
 			<h3><b></b> <em>购物指南</em></h3>
@@ -1067,8 +1034,5 @@
 	</div>
 	<!-- 底部版权 end -->
 
-	<script type="text/javascript">
-		document.execCommand("BackgroundImageCache", false, true);
-	</script>
 </body>
 </html>

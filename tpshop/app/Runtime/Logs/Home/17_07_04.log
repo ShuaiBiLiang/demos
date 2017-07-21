@@ -1,0 +1,121 @@
+[ 2017-07-04T08:20:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Undefined index: member_login E:\tpshop\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2017-07-04T08:21:18+08:00 ] 127.0.0.1 /index.php/Home/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0874s ]
+SQL: SELECT * FROM `ts_goods` WHERE ( is_show='1' )  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000780s ]
+NOTIC: [8] Undefined index: member_login E:\tpshop\app\Runtime\Cache\Home\cfb7a4b7a770fdaa3c66850753ec4e53.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2017-07-04T08:21:21+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.1307s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE ( goods_id=46 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ts_goods_attribute` [ RunTime:0.0389s ]
+SQL: SELECT ga.id,`attr_value`,`attr_name` FROM ts_goods_attribute ga LEFT JOIN ts_attribute a on a.attr_id = ga.attr_id  WHERE ( ga.goods_id=46 AND attr_sel = 0 )  [ RunTime:0.0303s ]
+SQL: SELECT ga.id,`attr_value`,`attr_name` FROM ts_goods_attribute ga LEFT JOIN ts_attribute a on a.attr_id = ga.attr_id  WHERE ( ga.goods_id=46 AND attr_sel = 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index: member_login E:\tpshop\app\Runtime\Cache\Home\a372310a3eb8997ff38d40da0fefe038.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-07-04T08:21:24+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/id/47.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `ts_goods` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `ts_goods` WHERE `goods_id` = 47 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ts_goods_photos` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ts_goods_photos` WHERE ( goods_id=47 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ts_goods_attribute` [ RunTime:0.0016s ]
+SQL: SELECT ga.id,`attr_value`,`attr_name` FROM ts_goods_attribute ga LEFT JOIN ts_attribute a on a.attr_id = ga.attr_id  WHERE ( ga.goods_id=47 AND attr_sel = 0 )  [ RunTime:0.0002s ]
+SQL: SELECT ga.id,`attr_value`,`attr_name` FROM ts_goods_attribute ga LEFT JOIN ts_attribute a on a.attr_id = ga.attr_id  WHERE ( ga.goods_id=47 AND attr_sel = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined index: member_login E:\tpshop\app\Runtime\Cache\Home\a372310a3eb8997ff38d40da0fefe038.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-07-04T16:25:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined index: member_login E:\tpshop\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+

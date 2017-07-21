@@ -1,0 +1,15 @@
+<?php
+  namespace Admin\Controller;
+  use Think\Controller;
+  class CommonController extends Controller{
+    public function __construct(){
+      parent::__construct();
+      // 验证用户的登录状态[ 因为 ACTION_NAME直接接收地址栏的方法名，所以会有大小写的情况 ]
+      
+      $action = array('index/login','index/code');
+      $res = !in_array( strtolower( CONTROLLER_NAME.'/'.ACTION_NAME ), $action );
+      if( $res  && session('is_login') != 1 ){
+        $this->error( '您尚未登录！',U('Admin/index/login') );
+      }
+    }
+  }

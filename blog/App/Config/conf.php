@@ -16,7 +16,7 @@ return array(
 	// 应用程序组
 	'App'	=>	array(
 		'default_platform'=>'Home',
-		'dao'	=> 'pdo',// mysql或者pdo
+		'dao'	=> 'mysql',// mysql或者pdo
 	),
 	// 各个平台组
 	'Home'	=>	array(

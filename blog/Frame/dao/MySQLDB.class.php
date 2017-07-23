@@ -18,12 +18,12 @@ class MySQLDB implements I_DAO {
 	 */
 	private function __construct($arr) {
 		// 初始化属性
-		$this->host = isset($arr['host']) ? $arr['host'] : 'localhost';
+		$this->host = isset($arr['host']) ? $arr['host'] : 'bdm27110368.my3w.com';
 		$this->port = isset($arr['port']) ? $arr['port'] : '3306';
-		$this->user = isset($arr['user']) ? $arr['user'] : 'root';
-		$this->pass = isset($arr['pass']) ? $arr['pass'] : '';
+		$this->user = isset($arr['user']) ? $arr['user'] : 'bdm27110368';
+		$this->pass = isset($arr['pass']) ? $arr['pass'] : 'wuliao0315';
 		$this->charset = isset($arr['charset']) ? $arr['charset'] : 'utf8';
-		$this->dbname = isset($arr['dbname']) ? $arr['dbname'] : '';
+		$this->dbname = isset($arr['dbname']) ? $arr['dbname'] : 'bdm27110368_db';
 		// 完成数据库连接三步曲
 		// 连接数据库
 		$this->my_connect();

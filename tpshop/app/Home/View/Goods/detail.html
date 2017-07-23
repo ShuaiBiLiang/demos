@@ -217,11 +217,21 @@
 										 </a>
 									</volist>
 									<input type="hidden" name="{$item.attr_name}" value="">
+
 									</dd>
 								</dl>
 							</li>
-							</volist>
-
+							</volist> 
+							<li>
+								<dl>
+									<dt>购买数量：</dt>
+									<dd>
+										<a href="javascript:;" id="reduce_num"></a>
+										<input type="text" name="amount" value="1" class="amount"/>
+										<a href="javascript:;" id="add_num"></a>
+									</dd>
+								</dl>
+							</li>
 							<li>
 								<dl>
 									<dt>&nbsp;</dt>
@@ -497,25 +507,10 @@
 
 	<div style="clear:both;"></div>
 
-
-	<script type="text/javascript">
-		document.execCommand("BackgroundImageCache", false, true);
-
-		//显示购物车
-		$('.add_btn').click(function(){
-			$('#cartBox').show();
-		});
-
-		//隐藏购物车
-		$('.closeBox').click(function(){
-			$('#cartBox').hide();
-		});
-	</script>
- 
 	        <!-- 购物车弹出框 -->
         <div class="buy_blank" id="cartBox" style="display:none;z-index:99;position: fixed;top: 0;left: 0;right: 0;bottom: 0;margin: auto;">
             <h4>
-                <span><a href="javascript:;" onclick="hideElement('cartBox')"><img src="__Home__/images/close.jpg" title="点击关闭"/></a></span>
+                <span><a href="javascript:;" class="closeBox"><img src="__Home__/images/close.jpg" title="点击关闭"  class="closeBox"/></a></span>
                 该商品已成功添加到购物车
             </h4>
             <p style="padding-left:60px;">
@@ -524,6 +519,46 @@
             </p>
             <p>
                 <a href="./shopshow.php" class="bt_orange closeBox" target="_black"></a>
-                <a class="bt_blue closeBox"></a>
+                <a href="#" class="bt_blue closeBox"></a>
             </p>
         </div>
+	<script type="text/javascript">
+		document.execCommand("BackgroundImageCache", false, true);
+
+		//显示购物车
+		//加入购物车
+		$('.add_btn').click(function(){
+			var goods_id = {$info.goods_id};//商品id
+			var goods_name = '{$info.goods_name}';//商品名称
+			var goods_price = {$info.goods_price}; //商品价格
+			var amount = $('.amount').val(); //商品数量
+
+			// alert(amount);
+			// 发送ajax
+			$.post('{:U("Cart/add")}',{'goods_id':goods_id,'goods_name':goods_name,'goods_price':goods_price,'amount':amount},function(msg){
+					// alert('a');
+					// console.log(msg);		
+
+					if( msg.error_code == 0 )
+					{	
+						//添加成功
+						$('#goods_number').html(msg.number);//修改购物车窗口的商品数量
+						$('#goods_totalprice').html(msg.price);//修改购物车窗口的商品价格
+						$('#cartBox').show();
+					}else{
+						//添加失败
+						alert(msg.message);
+					} 
+			},'json'); 
+			// alert('a'); 
+		});
+
+		//隐藏购物车
+		$('.closeBox').click(function(){
+			// alert('a');
+			$('#cartBox').hide();
+		});
+
+
+	</script>
+ 

@@ -29,6 +29,7 @@ class MemberController extends Controller {
     		if( $password == $info['member_pwd'] ){
     			//密码一致就是登录成功，保存状态
     			session('member_name', $info['member_name']);
+                session('member_id',$info['member_id']); //会员id
  				session('member_login', 1);
  				session('logined_time', $info['logined_time']);//保存上一次登录时间
 
@@ -39,6 +40,12 @@ class MemberController extends Controller {
  				);
 
  				D('Member')->save();
+
+                //判断是否需要跳转到别的指定的页面
+                if( $url = I('get.redire') )
+                {
+                    $this->success('登录成功！',U($url));die;
+                }
 
  				$this->success('登录成功！', U('index/index'), 3);die;
     		}else{

@@ -82,6 +82,12 @@ class CartController extends Controller {
 	// 订单结算页面
 	public function flow2()
 	{
+
+		//进入结算页面之前，需要判断用户是否登录了，因为这个页面需要用到用户的信息
+		if( session('member_login') != 1 )
+		{
+			$this->error('你尚未登录，请登录',U('Home/Member/login') . '?redire=Cart/flow2');die;
+		}
 		//获取当前购物车的所有商品
 		$cart_info = $this->cart->getCartInfo();
 
@@ -108,6 +114,39 @@ class CartController extends Controller {
 
 	public function buy()
 	{
-		echo 'a';
+		// echo 'a';
+		//1.把购物车商品入库
+		$cart_info = $this->cart->getCartInfo();
+		$getNumberPrice = $this->cart->getNumberPrice();
+
+		$data['user_id']		= session('member_id');
+		$data['order_number']	= data('YmdHis') . mt_rand(100000,999999); //确保订单号的唯一
+		$data['order_price']	= $getNumberPrice['price'];
+		$data['order_pay']		= 0;	//0表示支付宝
+		$data['order_status']	= 0;	//0表示未支付
+		$data['create_time']	= time();
+
+		$res = D('Order')->add( $data ); //直接入库，返回值就是新增的ID主键
+
+
+		foreach( $cart_info as $item )
+		{
+			$orderGoods['order_id']				= $res;
+			$orderGoods['goods_id']				= $item['goods_id'];
+			$orderGoods['goods_price']			= $item['goods_price'];
+			$orderGoods['goods_buy_number']		= $item['goods_buy_number'];
+			$orderGoods['goods_total_price']	= $item['goods_total_price']; 
+			D('orderGoods')->add( $orderGoods );
+		}
+
+		//2.清空购物车
+		$this->cart->delall();
+
+		//3.跳转支付
+	}
+
+	public function flow3()
+	{
+		$this->display();
 	}
 } 

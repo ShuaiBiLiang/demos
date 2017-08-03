@@ -1,0 +1,22 @@
+框架运行流程
+    入口文件
+    定义常量
+    引入函数库
+    自动加载类
+    启动框架
+    路由解析
+    加载控制器
+    返回结果
+
+目录
+    app //
+        crtl //控制器
+        action //方法
+	core //核心文件
+	    common //函数库
+	        function.php //自动加载类
+	    lib //存放其它类
+	        route.php //路由类
+	    imooc.php //框架核心文件
+	index.php //入口文件
+

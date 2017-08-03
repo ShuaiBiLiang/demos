@@ -6,12 +6,15 @@ class indexCtrl extends \core\imooc
 {
     public function index()
     {
-     $model = new \app\model\cModel();
-     $data = array(
-         'name'=>'Test',
-         'passwd'=>"abc"
-     );
-     $ret = $model->delOne(6);
-     dump($ret);
+     $data = "Hello adf";
+     $this->assign('data',$data);
+     $this->display('index.html');
+    }
+
+    public function test()
+    {
+        $data = "test";
+        $this->assign('data',$data);
+        $this->display('test.html');
     }
 }

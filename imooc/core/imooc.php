@@ -56,10 +56,16 @@ class imooc
     public function display($file)
     {
         $file = APP.'/views/'.$file;
-        extract($this->assign);
         if( is_file($file) )
         {
-            include $file;
+            \Twig_Autoloader::register();
+            $loader = new \Twig_Loader_Filesystem(APP.'/views');
+            $twig = new \Twig_Environment($loader, array(
+                 'cache' => IMOOC.'/log/twig/',
+                 'debug' => DEBUG
+            ));
+            $template = $twig->loadTemplate('index.html');
+            $template->display($this->assign?$this->assign:'');
         }
     }
 }

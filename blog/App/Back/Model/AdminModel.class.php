@@ -10,7 +10,9 @@ class AdminModel extends Model {
 	 * @param $pass 密码
 	 */
 	public function check($name,$pass) {
-		$sql = "select * from bg_admin where admin_name='$name' and admin_pass=md5('$pass')";
+
+		//debug 2017年7月25日 12:51:43 
+		$sql = "select * from bg_admin where admin_name='$name'and admin_pass=md5('$pass')";
 		return $this->dao->fetchRow($sql);
 	}
 	/**

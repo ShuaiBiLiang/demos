@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>圣骑士个人博客</title>
-<meta name="keywords" content="个人博客,圣骑士个人博客,周洋老师个人博客,响应式" />
-<meta name="description" content="个人博客,圣骑士个人博客,周洋老师个人博客,响应式，神秘、俏皮。" />
+<title>阿呆个人博客</title>
+<meta name="keywords" content="个人博客,波波个人博客,php博客,响应式" />
+<meta name="description" content="个人博客,波波个人博客,php博客,响应式，神秘、俏皮。" />
 <link href="{$smarty.const.CSS_DIR}/base.css" rel="stylesheet">
 <link href="{$smarty.const.CSS_DIR}/index.css" rel="stylesheet">
 <link href="{$smarty.const.CSS_DIR}/media.css" rel="stylesheet">
@@ -32,17 +32,17 @@
         <h3><a href="index.php?p=Home&c=Article&a=show&art_id={$row.art_id}">{$row.title}</a></h3>
         <figure><img src="/Uploads/thumb/{$row.thumb|truncate:8:NULL}/{$row.thumb}" ></figure>
         <ul>
-          <p>{$row.content|strip_tags|truncate:100:'...'}</p>
+          <p>{$row.content|strip_tags|truncate:0:'...'}</p>
           <a href="index.php?p=Home&c=Article&a=show&art_id={$row.art_id}" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
         </ul>
-        <p class="autor"><span>作者：{$row.author}</span><span>分类：【<a href="/">{$row.cate_name}</a>】</span><span>浏览（<a href="/">{$row.hits}</a>）</span><span>评论（<a href="/">30</a>）</span></p>
+        <p class="autor"><span>作者：{$row.author}</span><span>分类：【<a href="/">{$row.cate_name}</a>】</span><span>浏览（<a href="/">{$row.hits}</a>）</span><span>评论（<a href="/">0</a>）</span></p>
         <div class="dateview">{$row.addtime|date_format:'%Y-%m-%d'}</div>
       </div>
       {/foreach}
     </div>
   </article>
   <aside>
-    <div class="avatar"><a href="about.html"><span>关于zhouyang</span></a></div>
+    <div class="avatar"><a href="#"><span>关于波波</span></a></div>
     <div class="topspaceinfo">
       <h1>执子之手，与子偕老</h1>
       <p>于千万人之中，我遇见了我所遇见的人....</p>
@@ -81,20 +81,20 @@
         <p>友情链接</p>
       </h2>
       <ul>
-        <li><a href="/">zhouyang个人博客</a></li>
-        <li><a href="http://bbs.itcast.cn">传智播客论坛</a></li>
+        <li><a href="/">波波个人博客</a></li>
+        <li><a href="">达内千峰传智兄弟连青鸟大本营</a></li>
       </ul>
     </div>
     <div class="copyright">
       <ul>
-        <p> Design by <a href="/">圣骑士</a></p>
-        <p>粤ICP备11002373号-1</p>
+        <p> Design by <a href="/">DanceSmile</a></p>
+        <p>蜀ICP备11002373号-1</p>
         </p>
       </ul>
     </div>
   </aside>
   <div class="clear"></div>
-  <!-- 清除浮动 --> 
+  <!-- 清除浮动 -->
 </div>
 </body>
 </html>

@@ -40,7 +40,7 @@ class AdminController extends PlatformController {
 		}else {
 			// 非法
 			// echo '非法,此时应该跳转到后台登录页面！';
-			$this->jump('index.php?p=Back&c=Admin&a=login', ':( 用户名或密码错误!');
+			$this->jump('index.php?p=Back&c=Admin&a=login', ':( 用户名或密码错误!'); 
 		}
 	}
 	/**

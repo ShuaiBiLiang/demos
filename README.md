@@ -1,8 +1,10 @@
 # demos
 写的一些案例
-  blog\App\Conf\conf.php
-  blog\Frame\dao\MySQLDB.class.php
+
+  blog\App\Conf\conf.php、  
+  blog\Frame\dao\MySQLDB.class.php、
   blog\Frame\dao\PDODB.class.php
+  
   设置数据库信息
 
 

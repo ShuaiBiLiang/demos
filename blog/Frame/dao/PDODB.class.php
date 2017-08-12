@@ -45,12 +45,12 @@ class PDODB implements I_DAO {
 	 */
 	private function initParams($arr) {
 		// 初始化属性
-		$this->host = isset($arr['host']) ? $arr['host'] : 'bdm27110368.my3w.com';
+		$this->host = isset($arr['host']) ? $arr['host'] : '...';
 		$this->port = isset($arr['port']) ? $arr['port'] : '3306';
-		$this->user = isset($arr['user']) ? $arr['user'] : 'bdm27110368';
-		$this->pass = isset($arr['pass']) ? $arr['pass'] : 'wuliao0315';
+		$this->user = isset($arr['user']) ? $arr['user'] : '...';
+		$this->pass = isset($arr['pass']) ? $arr['pass'] : '...';
 		$this->charset = isset($arr['charset']) ? $arr['charset'] : 'utf8';
-		$this->dbname = isset($arr['dbname']) ? $arr['dbname'] : 'bdm27110368_db';
+		$this->dbname = isset($arr['dbname']) ? $arr['dbname'] : '...';
 	}
 	/**
 	 * 初始化dsn
@@ -156,6 +156,6 @@ class PDODB implements I_DAO {
 	 * 私有化__clone
 	 */
 	private function __clone() {
-		
+
 	}
 }

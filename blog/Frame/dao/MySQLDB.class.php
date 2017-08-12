@@ -18,12 +18,12 @@ class MySQLDB implements I_DAO {
 	 */
 	private function __construct($arr) {
 		// 初始化属性
-		$this->host = isset($arr['host']) ? $arr['host'] : 'bdm27110368.my3w.com';
+		$this->host = isset($arr['host']) ? $arr['host'] : '...';
 		$this->port = isset($arr['port']) ? $arr['port'] : '3306';
-		$this->user = isset($arr['user']) ? $arr['user'] : 'bdm27110368';
-		$this->pass = isset($arr['pass']) ? $arr['pass'] : 'wuliao0315';
+		$this->user = isset($arr['user']) ? $arr['user'] : '...';
+		$this->pass = isset($arr['pass']) ? $arr['pass'] : '...';
 		$this->charset = isset($arr['charset']) ? $arr['charset'] : 'utf8';
-		$this->dbname = isset($arr['dbname']) ? $arr['dbname'] : 'bdm27110368_db';
+		$this->dbname = isset($arr['dbname']) ? $arr['dbname'] : '...';
 		// 完成数据库连接三步曲
 		// 连接数据库
 		$this->my_connect();
@@ -44,7 +44,7 @@ class MySQLDB implements I_DAO {
 	}
 	/**
 	 * 连接数据库
-	 * 
+	 *
 	 */
 	private function my_connect() {
 		if($link = @ mysql_connect("$this->host:$this->port", $this->user, $this->pass)) {
@@ -145,10 +145,10 @@ class MySQLDB implements I_DAO {
 		$sql = "set names $this->charset";
 		$this->my_query($sql);
 	}
-	/** 
+	/**
 	 * 选择默认的数据库
 	 *
-	 */ 
+	 */
 	private function my_dbname() {
 		$sql = "use $this->dbname";
 		$this->my_query($sql);
@@ -156,21 +156,21 @@ class MySQLDB implements I_DAO {
 	/**
 	 * 析构方法
 	 *
-	 */ 
+	 */
 	public function __destruct() {
 		@ mysql_close($this->link);
 	}
 	/**
 	 * __sleep
 	 *
-	 */ 
+	 */
 	public function __sleep() {
 		return array('host', 'port', 'user', 'pass', 'charset', 'dbname');
 	}
 	/**
 	 * __wakeup
 	 *
-	 */ 
+	 */
 	public function __wakeup() {
 		// 反序列化对象的时候完成该对象的初始化工作
 		// 完成数据库连接三步曲
@@ -232,6 +232,6 @@ class MySQLDB implements I_DAO {
 	 *
 	 */
 	private function __clone() {
-		
+
 	}
 }

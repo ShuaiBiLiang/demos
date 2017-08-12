@@ -6,12 +6,12 @@
 return array(
 	// 数据库信息组
 	'db'	=>	array(
-		'host'=>'bdm27110368.my3w.com',
+		'host'=>'...',
 		'port'=>'3306',
-		'user'=>'bdm27110368',
-		'pass'=>'wuliao0315',
+		'user'=>'...',
+		'pass'=>'...',
 		'charset'=>'utf8',
-		'dbname'=>'bdm27110368_db'
+		'dbname'=>'...'
 	),
 	// 应用程序组
 	'App'	=>	array(

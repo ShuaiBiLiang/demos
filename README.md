@@ -1,14 +1,6 @@
 # demos
 写的一些案例
 
-设置数据库信息
-
-  【blog\App\Conf\conf.php】
-  【blog\Frame\dao\MySQLDB.class.php】
-  【blog\Frame\dao\PDODB.class.php】
-
-
-
 
 #message
 之前写的一个小小的留言板
@@ -17,6 +9,13 @@ PHP+MySql 样式非常丑
 
 #bolg
 blog 练手的blog   
+
+
+
+设置数据库信息
+  【blog\App\Conf\conf.php】
+  【blog\Frame\dao\MySQLDB.class.php】
+  【blog\Frame\dao\PDODB.class.php】
 
 
 

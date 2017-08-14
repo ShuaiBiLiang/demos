@@ -23,3 +23,5 @@ class SinglePageController extends PlatformController {
 		$this->display('index.html');
 	}
 }
+
+ 

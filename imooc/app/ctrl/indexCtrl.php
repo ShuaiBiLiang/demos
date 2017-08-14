@@ -6,15 +6,18 @@ class indexCtrl extends \core\imooc
 {
     public function index()
     {
-     $data = "Hello adf";
-     $this->assign('data',$data);
+     $this->assign('','');
      $this->display('index.html');
     }
 
-    public function test()
+    public function add()
     {
-        $data = "test";
-        $this->assign('data',$data);
-        $this->display('test.html');
+        $this->assign('','');
+        $this->display('add.html');
+    }
+
+    public function save()
+    {
+
     }
 }

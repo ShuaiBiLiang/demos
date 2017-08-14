@@ -18,7 +18,7 @@
 
 <body>
 <div class="lefter">
-    <div class="logo"><a href="#" target="_blank"><img src="{$smarty.const.IMAGES_DIR}/logo.png" alt="后台管理系统" /></a></div>
+    <div class="logo"><a href="index.php?p=Back&c=Manage&a=index" target="_self"><img src="{$smarty.const.IMAGES_DIR}/logo.png" alt="后台管理系统" /></a></div>
 </div>
 <div class="righter nav-navicon" id="admin-nav">
     <div class="mainer">
@@ -31,18 +31,18 @@
                 <li class="active"><a href="index.php?p=Back&c=Manage&a=index" class="icon-home"> 开始</a>
                     <ul><li><a href="index.php?p=Back&c=Category&a=index">分类管理</a></li><li><a href="index.php?p=Back&c=Article&a=index">文章管理</a></li><li><a href="index.php?p=Back&c=SinglePage&a=index">单页管理</a></li><li><a href="index.php?p=Back&c=Master&a=index">站长管理</a></li></ul>
                 </li>
-                <li><a href="system.html" class="icon-cog"> 分类</a>
+                <!-- <li><a href="system.html" class="icon-cog"> 分类</a>
             		<ul><li><a href="#">全局设置</a></li><li class="active"><a href="#">系统设置</a></li><li><a href="#">会员设置</a></li><li><a href="#">积分设置</a></li></ul>
                 </li>
                 <li><a href="content.html" class="icon-file-text">文章管理</a>
 					<ul><li><a href="#">添加内容</a></li><li class="active"><a href="#">内容管理</a></li><li><a href="#">分类设置</a></li><li><a href="#">链接管理</a></li></ul>
-                </li>
+                </li> -->
             </ul>
         </div>
         <div class="admin-bread">
             <span>您好,{$smarty.session.adminInfo.admin_name},欢迎您的光临。</span>
             <ul class="bread">
-                <li><a href="index.html" class="icon-home"> 开始</a></li>
+                <li><a href="javascript:void(0)" class="icon-home"> 开始</a></li>
                 <li>后台首页</li>
             </ul>
         </div>

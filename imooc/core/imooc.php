@@ -55,6 +55,7 @@ class imooc
 
     public function display($file)
     {
+        $files = $file;
         $file = APP.'/views/'.$file;
         if( is_file($file) )
         {
@@ -64,7 +65,7 @@ class imooc
                  'cache' => IMOOC.'/log/twig/',
                  'debug' => DEBUG
             ));
-            $template = $twig->loadTemplate('index.html');
+            $template = $twig->loadTemplate($files);
             $template->display($this->assign?$this->assign:'');
         }
     }

@@ -1,14 +1,14 @@
 <?php
 
-/* index.html */
-class __TwigTemplate_8aead12c0248d04887303c5c7e56d45c87cc10f4fc92236a933755fbddca8c81 extends Twig_Template
+/* add.html */
+class __TwigTemplate_d1fa80a25e399ec79654b5e3be186e00b1e4de6534e2c9581eaa2e780a309034 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("layout.html", "index.html", 1);
+        $this->parent = $this->loadTemplate("layout.html", "add.html", 1);
         $this->blocks = array(
             'content' => array($this, 'block_content'),
         );
@@ -28,13 +28,13 @@ class __TwigTemplate_8aead12c0248d04887303c5c7e56d45c87cc10f4fc92236a933755fbddc
     public function block_content($context, array $blocks = array())
     {
         // line 3
-        echo "留言板主页
+        echo "add页面
 ";
     }
 
     public function getTemplateName()
     {
-        return "index.html";
+        return "add.html";
     }
 
     public function isTraitable()
@@ -59,8 +59,8 @@ class __TwigTemplate_8aead12c0248d04887303c5c7e56d45c87cc10f4fc92236a933755fbddc
     {
         return new Twig_Source("{% extends \"layout.html\" %}
 {% block content %}
-留言板主页
+add页面
 {% endblock %}
-", "index.html", "E:\\imooc\\app\\views\\index.html");
+", "add.html", "E:\\imooc\\app\\views\\add.html");
     }
 }

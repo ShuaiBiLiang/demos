@@ -18,26 +18,37 @@ class __TwigTemplate_6b2b10d4d26891baaddc52a5afc90c84ddc879ec7196dce7b09e2ec7133
     {
         // line 1
         echo "<html lang=\"en\">
+<head>
+    <title>留言板</title>
+    <meta charset=\"utf-8\">
+</head>
 <body>
-<header>header</header>
+
+<header>
+
+</header>
 
 <content>
     ";
-        // line 6
+        // line 13
         $this->displayBlock('content', $context, $blocks);
-        // line 9
+        // line 16
         echo "</content>
 
-<footer>foooter</footer>
+<footer>
+    <div style=\"background: #777;width:100%;height:30px;\">
+1231
+    </div>
+</footer>
 
 </body>
 </html>";
     }
 
-    // line 6
+    // line 13
     public function block_content($context, array $blocks = array())
     {
-        // line 7
+        // line 14
         echo "
     ";
     }
@@ -49,7 +60,7 @@ class __TwigTemplate_6b2b10d4d26891baaddc52a5afc90c84ddc879ec7196dce7b09e2ec7133
 
     public function getDebugInfo()
     {
-        return array (  41 => 7,  38 => 6,  29 => 9,  27 => 6,  20 => 1,);
+        return array (  52 => 14,  49 => 13,  36 => 16,  34 => 13,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -63,8 +74,15 @@ class __TwigTemplate_6b2b10d4d26891baaddc52a5afc90c84ddc879ec7196dce7b09e2ec7133
     public function getSourceContext()
     {
         return new Twig_Source("<html lang=\"en\">
+<head>
+    <title>留言板</title>
+    <meta charset=\"utf-8\">
+</head>
 <body>
-<header>header</header>
+
+<header>
+
+</header>
 
 <content>
     {% block content %}
@@ -72,7 +90,11 @@ class __TwigTemplate_6b2b10d4d26891baaddc52a5afc90c84ddc879ec7196dce7b09e2ec7133
     {% endblock %}
 </content>
 
-<footer>foooter</footer>
+<footer>
+    <div style=\"background: #777;width:100%;height:30px;\">
+1231
+    </div>
+</footer>
 
 </body>
 </html>", "layout.html", "E:\\imooc\\app\\views\\layout.html");

@@ -48,13 +48,13 @@ class SinglePageController extends PlatformController {
 	 * 修改单页面动作
 	 */
 	public function editAction() {
-
+		echo 'test function';
 	}
 	/**
 	 * 处理修改单页面动作
 	 */
 	public function dealEditAction() {
-		
+
 	}
 	/**
 	 * 删除单页面动作

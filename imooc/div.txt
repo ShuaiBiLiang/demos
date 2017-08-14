@@ -12,11 +12,26 @@
     app //
         crtl //控制器
         action //方法
+        views //视图
 	core //核心文件
 	    common //函数库
 	        function.php //自动加载类
+        config //配置目录
+            database.php //数据库配置
+            log.php //日志存储配置
+            route.php //路由配置
 	    lib //存放其它类
-	        route.php //路由类
+            drive //
+                log //
+                    file.php //文件储存配置
+                    Mysql.php //数据库存储配置
+                conf.php
+                log.php
+                model.php
+	           route.php //路由类
 	    imooc.php //框架核心文件
+    log //日志目录
+    vendor //插件目录
+
 	index.php //入口文件
 
